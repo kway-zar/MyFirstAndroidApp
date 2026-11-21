@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTintMode="screen"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="727dp"
+                android:background="@drawable/gradient1">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="358dp"
+                    android:layout_height="206dp"
+                    android:layout_marginStart="228dp"
+                    android:layout_marginTop="16dp"
+                    android:rotation="120"
+                    android:rotationY="43"
+                    android:scaleY="2"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/vecteezy_white_fluffy_cloud_isolated_48681278" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="390dp"
+                    android:layout_height="281dp"
+                    android:layout_marginEnd="280dp"
+                    android:rotation="214"
+                    android:rotationX="-81"
+                    android:rotationY="-64"
+                    android:scaleY="5"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:srcCompat="@drawable/vecteezy_white_fluffy_cloud_isolated_48681278"
+                    tools:layout_editor_absoluteY="222dp" />
+
+                <EditText
+                    android:id="@+id/editTextText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/ubuntu_mono"
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:shadowColor="#00E5FF"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="40"
+                    android:text=" welcome._"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="130dp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="302dp"
+                    android:layout_height="539dp"
+                    android:layout_marginTop="228dp"
+                    app:cardBackgroundColor="#70FFFFFF"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.495"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" >
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="260dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/ic_action_name" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="52dp"
+                            android:fontFamily="@font/ubuntu_mono"
+                            android:text=" root@student: ~$ "
+                            android:textAlignment="textStart"
+                            android:textColor="#F50057"
+                            android:textStyle="bold|italic"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.131"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="52dp"
+                            android:fontFamily="@font/ubuntu_mono"
+                            android:text="head student.txt"
+                            android:textAlignment="textStart"
+                            android:textColor="#7A121A24"
+                            android:textStyle="bold|italic"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.822"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="176dp"
+                            android:fontFamily="@font/ubuntu_mono"
+                            android:text="head acadInfo.txt"
+                            android:textAlignment="textStart"
+                            android:textColor="#7A121A24"
+                            android:textStyle="bold|italic"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.828"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="255dp"
+                            android:layout_height="31dp"
+                            android:layout_marginTop="176dp"
+                            android:fontFamily="@font/ubuntu_mono"
+                            android:text=" root@student: ~$"
+                            android:textAlignment="textStart"
+                            android:textColor="#F50057"
+                            android:textDirection="firstStrong"
+                            android:textStyle="bold|italic"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.34"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="36dp"
+                            android:fontFamily="@font/ubuntu_mono"
+                            android:text="LastName: Dela Cruz"
+                            android:textColor="#14212E"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.164"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="256dp"
+                            android:layout_height="30dp"
+                            android:fontFamily="@font/ubuntu_mono"
+                            android:text="Program: Bachelor of Science in Computer Science"
+                            android:textColor="#14212E"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.586"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="256dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="44dp"
+                            android:fontFamily="@font/ubuntu_mono"
+                            android:text="Specialization: Machine Learning"
+                            android:textColor="#14212E"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.565"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="256dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="72dp"
+                            android:fontFamily="@font/ubuntu_mono"
+                            android:text="Year Level: 3rd Year"
+                            android:textColor="#14212E"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.586"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="60dp"
+                            android:fontFamily="@font/ubuntu_mono"
+                            android:text="FirstName: Jose Guiller"
+                            android:textColor="#14212E"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.198"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="84dp"
+                            android:fontFamily="@font/ubuntu_mono"
+                            android:text="MiddleName: Ramos"
+                            android:textColor="#14212E"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.15"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/textView" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
